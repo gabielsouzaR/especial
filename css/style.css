@@ -80,3 +80,18 @@ button:hover {
   padding: 20px 0 0 0;
   font-size: 1.2rem;
 }
+
+/* Estilos padrão */
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  button {
+    top: 80%;
+  }
+}
