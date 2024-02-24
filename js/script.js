@@ -8,7 +8,7 @@ const buttonYes = document.getElementById("button-yes");
 const message = document.querySelector(".message");
 
 buttonYes.addEventListener("click", function () {
-  message.innerHTML = "TE AMO❤️";
+  message.innerHTML = "já tô saindo então 😁";
 });
 
 button.addEventListener("click", function () {
